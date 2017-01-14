@@ -1,0 +1,24 @@
+{
+  "name": "copona/composer-installers",
+  "description": "Package installers for Copona",
+  "type": "composer-plugin",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kallef Alexandre",
+      "email": "prhost@prhost.com.br"
+    }
+  ],
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-0": { "Copona\\ComposerInstallers": "src/" }
+  },
+  "extra": {
+    "class": [
+      "Copona\\ComposerInstallers\\ComposerInstaller"
+    ]
+  }
+}
