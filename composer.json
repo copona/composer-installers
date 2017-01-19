@@ -2,7 +2,7 @@
   "name": "copona/composer-installers",
   "description": "Package installers for Copona",
   "type": "composer-plugin",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
@@ -12,6 +12,9 @@
   ],
   "require": {
     "composer-plugin-api": "^1.0"
+  },
+  "require-dev": {
+    "composer/composer": "1.0.*@dev"
   },
   "autoload": {
     "psr-0": { "Copona\\ComposerInstallers": "src/" }
