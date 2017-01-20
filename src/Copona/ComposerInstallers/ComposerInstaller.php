@@ -1,6 +1,6 @@
 <?php
 
-namespace Copona\Installers;
+namespace Copona\ComposerInstallers;
 
 class ComposerInstaller extends BaseInstaller
 {

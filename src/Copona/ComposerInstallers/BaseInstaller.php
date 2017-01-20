@@ -1,5 +1,5 @@
 <?php
-namespace Copona\Installers;
+namespace Copona\ComposerInstallers;
 
 use Composer\IO\IOInterface;
 use Composer\Composer;
