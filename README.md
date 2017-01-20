@@ -9,7 +9,6 @@ Type             | Path
 ---------------- | -------------
 copona-extension | /themes/{name}
 copona-theme     | /extensions/{vendor}/{name}
-copona-core      | /core
 
 ### How to use?
 
