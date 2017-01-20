@@ -12,7 +12,7 @@ class CoponaThemeInstaller extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        $parts = explode($package->getPrettyName());
+        $parts = explode('/', $package->getPrettyName());
         $vendor = $parts[0];
         unset($parts[0]);
         $name = implode('-', $parts);
