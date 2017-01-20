@@ -13,7 +13,7 @@ copona-core      | /core
 
 ### How to use?
 
-To work with your themes and extensions as a composer package, you just need to put `type ":" copona-[type] "` into your `composer.json`.
+To work with your themes and extensions as a composer package, you just need to put `"type":"copona-[type]"` into your `composer.json`.
 
 **Example of an extension:**
 
