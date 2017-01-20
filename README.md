@@ -7,8 +7,8 @@ This Custom Composer Installers is only for Copona projects. Do not use elsewher
 
 Type             | Path         
 ---------------- | -------------
-copona-extension | /themes/{name}
-copona-theme     | /extensions/{vendor}/{name}
+copona-theme     | /themes/{name}
+copona-extension | /extensions/{vendor}/{name}
 
 ### How to use?
 
