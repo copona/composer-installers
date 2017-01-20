@@ -21,7 +21,9 @@
   },
   "extra": {
     "class": [
-      "Copona\\ComposerInstallers\\CoponaInstaller"
+      "Copona\\ComposerInstallers\\CoponaCoreInstallerPlugin",
+      "Copona\\ComposerInstallers\\CoponaExtensionInstallerPlugin",
+      "Copona\\ComposerInstallers\\CoponaThemeInstallerPlugin"
     ]
   }
 }
