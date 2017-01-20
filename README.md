@@ -3,7 +3,7 @@
 This Custom Composer Installers is only for Copona projects. Do not use elsewhere, it may damage your design. 
 
 
-### Supports types:
+### Supported types:
 
 Type             | Path         
 ---------------- | -------------
