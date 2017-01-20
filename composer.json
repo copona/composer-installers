@@ -21,7 +21,7 @@
   },
   "extra": {
     "class": [
-      "Copona\\ComposerInstallers\\ComposerInstaller"
+      "Copona\\ComposerInstallers\\CoponaInstaller"
     ]
   }
 }
