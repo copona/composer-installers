@@ -12,12 +12,7 @@ class CoponaExtensionInstaller extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        $parts = explode('/', $package->getPrettyName());
-        $vendor = $parts[0];
-        unset($parts[0]);
-        $name = implode('-', $parts);
-
-        return 'extensions/' . $vendor . '/' . $name . '/';
+        return 'extensions/' . $this->dashesToCamelCase($package->getPrettyName(), true) . '/';
     }
 
     /**
@@ -27,4 +22,17 @@ class CoponaExtensionInstaller extends LibraryInstaller
     {
         return 'copona-extension' === $packageType;
     }
+
+    private function dashesToCamelCase($string, $capitalizeFirstCharacter = false)
+    {
+
+        $str = str_replace(' ', '', ucwords(str_replace('-', ' ', $string)));
+
+        if (!$capitalizeFirstCharacter) {
+            $str[0] = strtolower($str[0]);
+        }
+
+        return $str;
+    }
+
 }
