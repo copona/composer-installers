@@ -2,7 +2,6 @@
   "name": "copona/composer-installers",
   "description": "Package installers for Copona",
   "type": "composer-plugin",
-  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
